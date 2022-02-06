@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background: green;
+  color: white;
+  width: 100%;
+}
+ header h1{
+   text-transform: uppercase;
+   font-weight: bold;
+   padding: 10px;
+   font-size: 40px;
+ }
+ .product_container:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+.product_item{
+  width: 23.9%;
+  float: left;
+  padding: 10px;
+}
+
+.img_product_item{
+  width: 100%;
+}
+
+table{
+  padding: 10px;
+}
+
+table thead{
+  text-transform: uppercase;
+  font-weight: bold;
+  background: grey;
+  color: white;
+}
+
+table thead td,
+table tbody td{
+  padding: 10px;
+}
